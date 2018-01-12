@@ -15,3 +15,16 @@ for index, item in enumerate(c, 2):  # '2' tell the enumerate to start counting 
 4 pear
 5 orange
 '''
+
+
+c = ['banana', 'apple', 'pear', 'orange']
+for index, item in enumerate(c):
+    print(index, '+', item)
+	
+'''
+[CONSOLE]
+0 + banana
+1 + apple
+2 + pear
+3 + orange
+'''
